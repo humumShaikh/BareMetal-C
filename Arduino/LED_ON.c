@@ -9,7 +9,7 @@ int main(void)
 
     DDRB = DDRB | (1<<PB5);
 
-    while(1)
+    while(1)                        //this is like the void loop of arduino framework / abstraction layer
     {
         PORTB = PORTB | (1<<PB5);
     }
@@ -17,4 +17,5 @@ int main(void)
     return 0;
 
 }
+
 
